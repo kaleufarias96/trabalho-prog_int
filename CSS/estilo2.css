@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+    
+}
+.menu {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.logo {
+    text-align: center;
+    max-width: 300px ;
+    width: 100%;
+}
+.menu-2{
+    display: flex;
+} 
+footer {
+    background-color: #555c43;
+    padding: 1%;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    clear: both;
+    margin-top: 10px;
+}
+.header{
+    width: 100%;
+    height: auto !important;
+}
+.menu {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.logo {
+    text-align: center;
+    max-width: 300px ;
+    width: 100%;
+}
+.menu-2{
+    display: flex;
+} 
+header, article{
+    margin: 0%;
+}
+nav ul{
+    
+    list-style: none;
+    padding: 1%;
+    margin: 0%;
+    text-align: center;
+    background-color: #78825E;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(119, 119, 119);
+    color: rgb(218, 216, 216);
+    text-decoration: none;
+    border-bottom: 2px solid #f7a600 ;
+    border-radius: 10px;
+    
+}
+nav ul li a:hover{
+    background-color: #5b3411;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid #f7a600;
+}
+.blocotext{
+    background-color: #78825E;
+    display: flex;
+    padding: 20px;
+}
+h2{
+    background-color: #78825E;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+.text{
+    font-style: 25px arial;
+    color: white;
+    margin: 2%;
+}
+.foto{
+    margin: auto;
+
+}
+@media only screen and (max-width: 870px) {
+    bory{
+        margin: auto !important;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+    }
+    .foto{
+        display: none;
+    }
+    .texto1{
+      display: block;
+    }
+    .campo{
+        display: block;
+    }
+    .texto1{
+        display: none;
+    }
+    .sumir{
+        display: none;
+    }
+}
+
+.grupo{
+    background-color: #78825E;
+    display: flex;
+    margin: auto;
+    margin-top: 1px;
+}
+.campo{
+    margin: auto;
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+    
+}
+.botao{
+    margin: auto;
+    font: 15px arial;
+    
+}
+.caixa{
+    background-color: #78825E;
+    margin: auto;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.bloco{
+    margin-top: 2px;
+    background-color: #78825E;
+    display: flex;
+    padding: 15px;
+}
+.texto1{
+    background-color: #454b35;
+    margin-left: auto;
+    margin: auto;
+    padding: 35px;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+
+
+

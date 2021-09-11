@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+    width: 100%;
+    
+}
+.menu {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.logo {
+    text-align: center;
+    max-width: 300px ;
+    width: 100%;
+}
+.menu-2{
+    display: flex;
+} 
+header, article{
+    margin: 0%;
+}
+nav ul{
+    
+    list-style: none;
+    padding: 1%;
+    margin: 0%;
+    text-align: center;
+    background-color: #78825E;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(119, 119, 119);
+    color: rgb(218, 216, 216);
+    text-decoration: none;
+    border-bottom: 2px solid #f7a600 ;
+    border-radius: 10px;
+    
+}
+nav ul li a:hover{
+    background-color: #5b3411;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid #f7a600;
+}
+
+
+.galeria{
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.blocotexto{
+    background-color: #78825E;
+    color: white;
+    margin: 0px;
+    display: flex;
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+}
+h1{
+    background-color: #78825E;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+.texto{
+    margin-top: 0px;
+    margin: 20px;
+}
+.foto2{
+    height: auto;
+    width: auto;
+    margin: 15px;
+}
+.foto{
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    min-width: 450px;
+}
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        transform:scale(1.1,1.1) ;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+
+.foto:nth-last-child(1){
+    animation-delay: 5s;
+}.foto:nth-last-child(2){
+    animation-delay: 10s;
+}.foto:nth-last-child(3){
+    animation-delay: 15s;
+}.foto:nth-last-child(4){
+    animation-delay: 20s;
+}
+
+.blocomapa{
+    background-color: #78825E;
+    display: flex;
+}
+.mapa{
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.endereso{
+    margin: 20px;
+    color: white;
+}
+.contatos{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    margin: 10px;
+    
+    
+}
+
+footer {
+    background-color: #555c43;
+    padding: 1%;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    clear: both;
+}
+
+@media only screen and (max-width: 870px) {
+    bory{
+        margin: auto !important;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+    }
+.mapa{
+    display: none;
+    margin: auto !important;
+    position: absolute;
+}
+.foto2{
+    display: none;
+}
+.galeria{
+    margin-top: 0px;
+}
+    .mapa{
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px){
+    .galeria{
+        display: none;
+    }
+}
+
